@@ -18,7 +18,7 @@ Before running the script, make sure you have the following prerequisites:
 1. Clone the repository:
 
    ```
-   git clone https://github.com/ashuazeem/ReachabilityMonitoringfromAWS.git
+   git clone https://github.com/ashuazeem/Reachability-Monitoring.git
    ```
 
 2. Change to the project directory:
