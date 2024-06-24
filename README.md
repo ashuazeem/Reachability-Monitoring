@@ -11,6 +11,7 @@ Before running the script, make sure you have the following prerequisites:
 
 - Python 3.8 or later (Boto3 will no longer support Python 3.7 starting December 13, 2023)
 - pip is installed
+- git is installed
 - AWS role configured with appropriate permissions for EC2, S3,CloudWatch and assigned it to the EC2 instance where the script will be run.
 - `nmap` utility installed on the EC2
 
