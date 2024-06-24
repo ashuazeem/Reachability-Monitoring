@@ -37,10 +37,10 @@ Before running the script, make sure you have the following prerequisites:
 
 ## Usage
 
-The script requires command-line arguments to specify the AWS region, S3 bucket name, and CSV file name containing the destination information.
+The script requires command-line arguments to specify the AWS region, S3 bucket name, and CSV file name containing the destination information. The script needs root permissions to execute.
 
 ```
-sudo python3.8 reachability_monitor.py --region <aws-region> --bucket <s3-bucket-name> --filename <csv-file-name>
+sudo python3 reachability_monitor.py --region <aws-region> --bucket <s3-bucket-name> --filename <csv-file-name>
 ```
 
 - `--region`: The AWS region where the EC2 instance which will monitor the destination IPs is running (e.g., `us-east-1`).
