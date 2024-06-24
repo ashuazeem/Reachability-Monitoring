@@ -3,15 +3,16 @@ This repository contains a Python script designed to perform TCP,UDP or icmp con
 
 # Reachability Monitoring Script
 
-This Python script is designed to run `nping` commands for specified destinations (IP addresses, ports, and protocols), and publish metrics related to connection status and round-trip time to Amazon CloudWatch. Additionally, the script sends logs, including any errors, to CloudWatch Logs.
+This Python script is designed to run `nping` commands from nmap utility for specified destinations (IP addresses, ports, and protocols), and publish metrics related to connection status and round-trip time to Amazon CloudWatch. Additionally, the script sends logs, including any errors, to CloudWatch Logs.
 
 ## Prerequisites
 
 Before running the script, make sure you have the following prerequisites:
 
 - Python 3.8 or later (Boto3 will no longer support Python 3.7 starting December 13, 2023)
+- pip is installed
 - AWS role configured with appropriate permissions for EC2, S3,CloudWatch and assigned it to the EC2 instance where the script will be run.
-- `nping` utility installed on the EC2
+- `nmap` utility installed on the EC2
 
 ## Installation
 
