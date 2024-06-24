@@ -330,7 +330,7 @@ def log_error_to_cloudwatch(logs_client, error_message, region_name):
     log_record = logging.LogRecord(
         name=logger.name,
         level=logging.ERROR,
-        pathname="my_script.py",
+        pathname="reachability_monitor.py",
         lineno=123,
         msg=f"{error_message} - InstanceID: {instance_id if instance_id else 'Unknown'}",
         args=(),
