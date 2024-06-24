@@ -26,13 +26,13 @@ Before running the script, make sure you have the following prerequisites:
 2. Change to the project directory:
 
    ```
-   cd reachabilitymonitoringfromaws
+   cd Reachability-Monitoring
    ```
 
 3. Install the required Python dependencies:
 
    ```
-   pip3 install -r requirements.txt
+   sudo pip3 install -r requirements.txt
    ```
 
 ## Usage
